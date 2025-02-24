@@ -391,7 +391,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form class='form' method="post" name="contact" action="/success" data-netlify="true">
+								<form class='form' method="post" name="contact" action="POST" data-netlify="true">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -405,6 +405,7 @@
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
+										<div data-netlify-recaptha="true"></div>	
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
